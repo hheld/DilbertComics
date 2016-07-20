@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Dilbert comics",
+    "description": "This extensions lets you view Dilbert comics",
+    "version": "1.0",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "http://comicfeeds.chrisbenard.net/view/dilbert/default"
+    ]
+}
